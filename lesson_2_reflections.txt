@@ -12,3 +12,37 @@ directory to be committed to the repository. It helps the work of version
 control by giving us an area to work on our commit in several steps. Without
 the staging area, a commit would be more difficult to create logical commits
 involving more than one file.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Before committing, check the staged changes to make sure they belong together.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When you have more than one track of development, branches can help keep the
+different tracks separated and prevent any problems with one branch from
+complicating the other.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They make a spatial representation of the relationship between commits.
+
+
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+Merging combines two branches into one. The merged commit points to both of its
+parent commits.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Git can merge automatically when there are no conflicting changes, which saves
+a lot of time over manual merging. It's still possible for a merged file to have
+problems, though.
