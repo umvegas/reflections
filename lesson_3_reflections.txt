@@ -28,3 +28,11 @@ You can compare the work you've done with the state of the remote that you
 started working on. It's easier to understand what work you've done that way
 than if you had to compare your work to the state of the remote master after
 you did the work.
+
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Collaborating with GitHub requires learning how to use the system, which is a
+little complicated, but it is much better than trying to send code back and
+forth using email and manually doing diffs and merges.
