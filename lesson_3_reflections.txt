@@ -36,3 +36,16 @@ and what would be harder?
 Collaborating with GitHub requires learning how to use the system, which is a
 little complicated, but it is much better than trying to send code back and
 forth using email and manually doing diffs and merges.
+
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Working directly on the master branch is simpler than working on a separate
+branch and then merging. Working on a separate branch is better in cases where
+the changes you need to make might entail several commits, each of which might
+not be ready for exposure to the master. It also helps to have separate branches
+when more than one significant change has to happen at once. This allows work on
+each of the changes to progress separately. Each change is only merged into the
+master when that change is ready for prime time.
+wh
