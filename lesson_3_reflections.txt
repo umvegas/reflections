@@ -11,3 +11,11 @@ automatically stay up-to-date with your remote repository?
 Pulling automatically might cause problems with work in progress locally. I
 might want to incorporate changes from the origin eventually, but not until
 I have finished working on my local changes.
+
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A branch is an isolated line of work. A clone is a copy of a repository. A fork
+is a clone that GitHub has made of a repository that lives on their servers,
+the copy also lives on their servers.
